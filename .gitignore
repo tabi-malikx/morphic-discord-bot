@@ -1,0 +1,17 @@
+# Local configuration, dependencies, logs and runtime data
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite
+*.sqlite3
+*.db
+/data/
+/backups/
+.DS_Store
+Thumbs.db
